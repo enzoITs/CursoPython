@@ -88,3 +88,5 @@ while True:
             print("Opção inválida!")
     except ValueError:
         print("Erro: Por favor, digite apenas números.")
+
+print(aaaaa)
