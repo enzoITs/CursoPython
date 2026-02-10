@@ -50,21 +50,21 @@ from datetime import datetime, timedelta
 #     print('Ja passou')
 
 # 3
-data_produto = input('Digite a data de fabricação do produto: ')
-validade_produto = datetime.strptime(data_produto, "%d/%m/%Y")
-validade = timedelta(days=180)
-validade_do_produto = validade_produto + validade
-hoje = datetime.now()
-print(f'Validade: {validade_do_produto}')
-if hoje < validade_do_produto:
-    print('Dentro da Validade')
-else:
-    print("Fora da validade")
+# data_produto = input('Digite a data de fabricação do produto: ')
+# validade_produto = datetime.strptime(data_produto, "%d/%m/%Y")
+# validade = timedelta(days=180)
+# validade_do_produto = validade_produto + validade
+# hoje = datetime.now()
+# print(f'Validade: {validade_do_produto}')
+# if hoje < validade_do_produto:
+#     print('Dentro da Validade')
+# else:
+#     print("Fora da validade")
 
-if hoje < validade_do_produto:
-    print(f'Faltam {validade_do_produto - hoje}')
-else:
-    print(f'Ja passou {hoje - validade_do_produto}')   
+# if hoje < validade_do_produto:
+#     print(f'Faltam {validade_do_produto - hoje}')
+# else:
+#     print(f'Ja passou {hoje - validade_do_produto}')   
 
 
 
