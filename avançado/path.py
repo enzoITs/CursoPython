@@ -1,7 +1,7 @@
 from pathlib import Path
 
 # caminho = Path(r"teste.txt")
-# # caminho_absoluto = path(r"C:\Users\mitob\Documents\Obsidian")
+# caminho_absoluto = path(r"C:\Users\mitob\Documents\Obsidian")
 # caminho_absoluto = caminho.absolute()
 # print(caminho)
 
@@ -39,7 +39,7 @@ from pathlib import Path
 # for arquivo in pasta.glob("*.pdf"):
 #     print(arquivo)
 
-# ----------------------------exercicios
+# # ----------------------------exercicios
 # 1
 # novapasta = Path("dados/entrada")
 # novapasta1 = Path("dados/saida")
