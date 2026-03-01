@@ -28,32 +28,32 @@ pasta = Path('projeto/organizador')
 for arquivo in pasta.glob("*.pdf"):
     shutil.move(arquivo, 'projeto/pdfs')
     with log.open('a',  encoding='utf-8') as arquivo:
-        arquivo.write(f'{agora} || Arquivo PDF movido')
+        arquivo.write(f'{agora} || {arquivo.name} Arquivo PDF movido')
 
 for arquivo in pasta.glob("*.xlsx"):
     shutil.move(arquivo, 'projeto/xlsxs')
     with log.open('a',  encoding='utf-8') as arquivo:
-        arquivo.write(f'{agora} || Arquivo XLSX movido')
+        arquivo.write(f'{agora} || {arquivo.name} Arquivo XLSX movido')
     
 for arquivo in pasta.glob("*.png"):
     shutil.move(arquivo, 'projeto/pngs')
     with log.open('a',  encoding='utf-8') as arquivo:
-        arquivo.write(f'{agora} || Arquivo PNG movido')
+        arquivo.write(f'{agora} || {arquivo.name} Arquivo PNG movido')
 
 for arquivo in pasta.glob("*.txt"):
     shutil.move(arquivo, 'projeto/txts')
     with log.open('a',  encoding='utf-8') as arquivo:
-        arquivo.write(f'{agora} || Arquivo TXT movido')
+        arquivo.write(f'{agora} || {arquivo.name} Arquivo TXT movido')
 
 for arquivo in pasta.glob("*.jpg"):  
     shutil.move(arquivo, 'projeto/jpgs')
     with log.open('a',  encoding='utf-8') as arquivo:
-        arquivo.write(f'{agora} || Arquivo JPG movido')
+        arquivo.write(f'{agora} || {arquivo.name} Arquivo JPG movido')
 
 for arquivo in pasta.glob("*.docx"):
     shutil.move(arquivo, 'projeto/docxs')
     with log.open('a',  encoding='utf-8') as arquivo:
-        arquivo.write(f'{agora} || Arquivo DOCX movido')    
+        arquivo.write(f'{agora} || {arquivo.name} Arquivo DOCX movido')    
 
       
 
